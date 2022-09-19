@@ -63,5 +63,10 @@ An optimized state diagram S’ in the KISS format
 01 s4 s5 0  
 11 s5 s0 0  
 .e  
-![image](https://github.com/eric900324/State-Reduction-for-Sequential-Circuits/blob/main/1663595258028.jpg)
+![image](https://github.com/eric900324/State-Reduction-for-Sequential-Circuits/blob/main/Example.jpg)
 
+# Notice
+* For a state diagram, some state transitions may not be specified  
+-i.e., don't cares
+* Two states can be merged, if their specified transitions have no conflict  
+-e.g., S5 and S0, S5 and S2, S5 and S4
