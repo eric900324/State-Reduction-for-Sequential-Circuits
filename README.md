@@ -70,3 +70,8 @@ An optimized state diagram S’ in the KISS format
 -i.e., don't cares
 * Two states can be merged, if their specified transitions have no conflict  
 -e.g., S5 and S0, S5 and S2, S5 and S4
+
+# Method
+* Instead of merging the same state, assume that the all states are functionally equal.(There are only one state.)
+* Check all the states, if it is different from the state that I assume, seperate it.
+* Some states that seperated from the last step may be funtionally equal to other states. Mark them as a invalid state.
